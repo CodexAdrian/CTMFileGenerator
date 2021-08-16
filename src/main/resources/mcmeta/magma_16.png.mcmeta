@@ -4,7 +4,7 @@
     "type": "ctm",
     "layer": "CUTOUT",
     "textures": [
-      "chipped:block/magma_16_ctm.png"
+      "chipped:block/magma_16_ctm"
     ],
     "extra": {
       "light": 0

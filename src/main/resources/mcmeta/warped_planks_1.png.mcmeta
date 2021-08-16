@@ -4,7 +4,7 @@
     "type": "ctm",
     "layer": "CUTOUT",
     "textures": [
-      "chipped:block/warped_planks_1_ctm.png"
+      "chipped:block/warped_planks_1_ctm"
     ],
     "extra": {
       "light": 0

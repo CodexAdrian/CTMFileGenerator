@@ -4,7 +4,7 @@
     "type": "ctm",
     "layer": "CUTOUT",
     "textures": [
-      "chipped:block/blackstone_ctm_6.png"
+      "chipped:block/blackstone_ctm_6"
     ],
     "extra": {
       "light": 0

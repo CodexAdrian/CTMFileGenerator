@@ -31,7 +31,7 @@ public class Generator {
             mcMeta.type = "ctm";
             if(pathName.contains("pillar")) mcMeta.type = "pillar";
             if(pathName.contains("random")) mcMeta.type = "random";
-            mcMeta.textures = new String[]{"chipped:block/" + pathName};
+            mcMeta.textures = new String[]{"chipped:block/" + pathName.replaceAll(".png", "")};
             try {
                 File mcMetaFile = new File(newFile);
                 if (mcMetaFile.createNewFile()) {

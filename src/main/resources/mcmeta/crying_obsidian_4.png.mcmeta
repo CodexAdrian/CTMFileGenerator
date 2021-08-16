@@ -4,7 +4,7 @@
     "type": "ctm",
     "layer": "CUTOUT",
     "textures": [
-      "chipped:block/crying_obsidian_ctm_4.png"
+      "chipped:block/crying_obsidian_ctm_4"
     ],
     "extra": {
       "light": 0

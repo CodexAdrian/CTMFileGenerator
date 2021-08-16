@@ -4,7 +4,7 @@
     "type": "pillar",
     "layer": "CUTOUT",
     "textures": [
-      "chipped:block/darkprismarine_3_ctm_pillar.png"
+      "chipped:block/darkprismarine_3_ctm_pillar"
     ],
     "extra": {
       "light": 0

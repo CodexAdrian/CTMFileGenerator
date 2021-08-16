@@ -4,7 +4,7 @@
     "type": "pillar",
     "layer": "CUTOUT",
     "textures": [
-      "chipped:block/diorite_5_ctm_pillar.png"
+      "chipped:block/diorite_5_ctm_pillar"
     ],
     "extra": {
       "light": 0

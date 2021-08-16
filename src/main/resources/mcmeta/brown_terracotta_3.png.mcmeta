@@ -4,7 +4,7 @@
     "type": "ctm",
     "layer": "CUTOUT",
     "textures": [
-      "chipped:block/brown_terracotta_3_ctm.png"
+      "chipped:block/brown_terracotta_3_ctm"
     ],
     "extra": {
       "light": 0

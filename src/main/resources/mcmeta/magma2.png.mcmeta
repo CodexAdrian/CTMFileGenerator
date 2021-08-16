@@ -4,7 +4,7 @@
     "type": "pillar",
     "layer": "CUTOUT",
     "textures": [
-      "chipped:block/magma_pillar2_ctm.png"
+      "chipped:block/magma_pillar2_ctm"
     ],
     "extra": {
       "light": 0

@@ -1,8 +1,8 @@
 {
   "ctm": {
     "ctm_version": 1,
-    "type": "edges",
-    "layer": "SOLID",
+    "type": "ctm",
+    "layer": "CUTOUT",
     "textures": [
       "chipped:block/magenta_concrete_5_ctm.png"
     ],

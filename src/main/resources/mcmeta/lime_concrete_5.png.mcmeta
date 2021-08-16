@@ -4,7 +4,7 @@
     "type": "ctm",
     "layer": "CUTOUT",
     "textures": [
-      "chipped:block/lime_concrete_5_ctm.png"
+      "chipped:block/lime_concrete_5_ctm"
     ],
     "extra": {
       "light": 0

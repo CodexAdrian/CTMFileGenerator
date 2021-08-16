@@ -4,7 +4,7 @@
     "type": "ctm",
     "layer": "CUTOUT",
     "textures": [
-      "chipped:block/netherrack_2_ctm.png"
+      "chipped:block/netherrack_2_ctm"
     ],
     "extra": {
       "light": 0
