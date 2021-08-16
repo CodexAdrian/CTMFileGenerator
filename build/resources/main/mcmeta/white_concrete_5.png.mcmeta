@@ -1,0 +1,13 @@
+{
+  "ctm": {
+    "ctm_version": 1,
+    "type": "edges",
+    "layer": "SOLID",
+    "textures": [
+      "chipped:block/white_concrete_5_ctm.png"
+    ],
+    "extra": {
+      "light": 0
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "ctm": {
+    "ctm_version": 1,
+    "type": "pillar",
+    "layer": "SOLID",
+    "textures": [
+      "chipped:block/stone_4_ctm_pillar.png"
+    ],
+    "extra": {
+      "light": 0
+    }
+  }
+}

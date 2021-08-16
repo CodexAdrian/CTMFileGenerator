@@ -12,23 +12,26 @@ import java.util.Objects;
 public class Generator {
     public static Gson gson = new GsonBuilder().setPrettyPrinting().create();
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         //Gets the names of all the textures in the "src/main/resources/blocks" folder and adds them to a List
         List<String> pathNames;
         File file = new File("src/main/resources/blocks");
         pathNames = Arrays.stream(Objects.requireNonNull(file.list())).toList();
         assert pathNames != null;
-        //removes the .png from the name
-        pathNames = pathNames.stream().map(s -> s.substring(0, s.length() - 4)).toList();
-
         //For every png, generate an mcmeta file
         for (String pathName : pathNames) {
             System.out.println(pathName);
-            String newFile = "src/main/resources/mcmeta/" + pathName + ".mcmeta";
+            String fileName = pathName.replaceAll("_ctm", "");
+            fileName = fileName.replaceAll("_pillar", "");
+            fileName = fileName.replaceAll("random", "");
+            System.out.println(fileName);
+            String newFile = "src/main/resources/mcmeta/" + fileName + ".mcmeta";
             MCMeta mcMeta = new MCMeta();
             //Checks if it's a pillar, and changes the type accordingly
-            mcMeta.type = pathName.contains("pillar") ? "pillar" : "edges";
-            mcMeta.textures = new String[]{"chipped:blocks/" + pathName};
+            mcMeta.type = "ctm";
+            if(pathName.contains("pillar")) mcMeta.type = "pillar";
+            if(pathName.contains("random")) mcMeta.type = "random";
+            mcMeta.textures = new String[]{"chipped:block/" + pathName};
             try {
                 File mcMetaFile = new File(newFile);
                 if (mcMetaFile.createNewFile()) {
