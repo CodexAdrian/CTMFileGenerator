@@ -1,0 +1,13 @@
+{
+  "ctm": {
+    "ctm_version": 1,
+    "type": "edges",
+    "layer": "SOLID",
+    "textures": [
+      "chipped:blocks/gilded_blackstone_ctm_"
+    ],
+    "extra": {
+      "light": 0
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "ctm": {
+    "ctm_version": 1,
+    "type": "edges",
+    "layer": "SOLID",
+    "textures": [
+      "chipped:blocks/jungle_planks_2_ctm"
+    ],
+    "extra": {
+      "light": 0
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "ctm": {
+    "ctm_version": 1,
+    "type": "edges",
+    "layer": "SOLID",
+    "textures": [
+      "chipped:blocks/black_terracotta_5_ctm"
+    ],
+    "extra": {
+      "light": 0
+    }
+  }
+}

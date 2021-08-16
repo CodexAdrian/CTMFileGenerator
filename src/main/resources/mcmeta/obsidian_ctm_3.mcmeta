@@ -1,0 +1,13 @@
+{
+  "ctm": {
+    "ctm_version": 1,
+    "type": "edges",
+    "layer": "SOLID",
+    "textures": [
+      "chipped:blocks/obsidian_ctm_3"
+    ],
+    "extra": {
+      "light": 0
+    }
+  }
+}

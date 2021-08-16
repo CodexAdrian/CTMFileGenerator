@@ -1,0 +1,13 @@
+{
+  "ctm": {
+    "ctm_version": 1,
+    "type": "edges",
+    "layer": "SOLID",
+    "textures": [
+      "chipped:blocks/basalt_ctm_1"
+    ],
+    "extra": {
+      "light": 0
+    }
+  }
+}
